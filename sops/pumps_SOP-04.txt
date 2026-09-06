@@ -1,0 +1,17 @@
+1. PURPOSE
+To detail the comprehensive pre-start checklist for centrifugal pump P-101A prior to every startup, restart after maintenance, and post-trip reset. Ensures mechanical integrity, lubrication readiness, seal pot pressure, and alignment verification before energizing the 250 HP motor driver.
+
+2. SCOPE
+Applies to Shift Engineers authorized for pump startup in the crude charge circuit. Covers P-101A only; P-101B follows separate SOP. Includes verification of cooling water, bearing temperature baseline, and suction valve V-101 position. Does not cover long-term storage preservation or motor rewinding.
+
+3. SAFETY PRECAUTIONS
+Confirm P-101A motor breaker is locked out during checklist execution. Wear hearing protection, safety glasses, and steel-toe boots. Check for residual pressure in casing by cracking vent at top. Ensure LSH-201 is armed and functional. No hot work within 35 feet during pre-start. Maintain two-person rule for field verification.
+
+4. PRE-START CHECKLIST
+Oil level in bearing housing between MIN and MAX marks. Seal pot pressure at 20 psig minimum. Cooling water flow to bearing housing and seal cooler confirmed. Suction valve V-101 fully open and handwheel secured. Discharge valve initially closed. Motor space heater off. Turn shaft by hand two full rotations, must be free. Verify P-101A nameplate matches DCS tag.
+
+5. OPERATING STEPS
+Complete all pre-start checklist items and sign off. Notify control room of P-101A readiness. Request motor energize from electrical. Once running at rated speed, gradually open discharge valve while monitoring suction pressure. Confirm bearing temperature stays below 140 degrees Fahrenheit. Check seal pot level stabilizes within 5 minutes. Log start time, initial amps, and vibration reading.
+
+6. ESCALATION
+If any pre-start checklist item fails, such as low oil, seized shaft, or no cooling water, do not start P-101A. Tag equipment OUT OF SERVICE and notify Shift Engineer. If pump trips on start or exhibits high vibration above 0.3 inches per second, immediately stop and lock out. Do not attempt restart without mechanical inspection and maintenance clearance.

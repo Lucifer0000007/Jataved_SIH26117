@@ -1,0 +1,26 @@
+1. PURPOSE
+This Standard Operating Procedure (SOP) establishes the mandatory sequence for safely starting, operating, and shutting down the primary centrifugal cooling water pump, tagged as P-101A. The strict adherence to this document ensures P-101A maintains optimal flow rates, prevents mechanical failure due to cavitation, and guarantees downstream equipment cooling. Appropriate operation of P-101A and its discharge block valve, V-101, is critical for refinery thermal management.
+
+2. SCOPE
+This procedure applies to all certified Field Operators, Shift Engineers, and Maintenance Technicians interacting with the primary cooling circuit, specifically targeting centrifugal pump P-101A and the main discharge isolation valve V-101. It defines operational boundaries, safe limits, and standard startup protocols. It does not cover electrical motor diagnostics, LSH-201 level sensor calibrations, or major overhaul maintenance for P-101A or V-101.
+
+3. SAFETY PRECAUTIONS
+Prior to any interaction with pump P-101A or valve V-101, personnel must don complete OSHA-compliant personal protective equipment, including impact-resistant gloves, safety goggles, and double hearing protection. Pump P-101A presents severe thermal and acoustic hazards during normal operation. Ensure the outer casing of P-101A is below 45 degrees Celsius before conducting physical inspections. Never use mechanical force if isolation valve V-101 becomes physically stuck.
+
+4. PRE-START CHECKLIST
+Before initializing centrifugal pump P-101A, operators must verify several critical alignment parameters to prevent catastrophic equipment failure.
+- Confirm the local electrical disconnect for P-101A is locked in the ON configuration.
+- Physically verify the discharge isolation valve V-101 is turned fully to the CLOSED position.
+- Ensure seal flush lines routed to P-101A are actively flowing with no blockages.
+- Validate that lubrication oil within the P-101A bearing housing exceeds minimum marks.
+
+5. OPERATING STEPS
+Execute the following instructions sequentially to establish safe process flow:
+- Engage the main start sequence for pump P-101A at the local field control panel.
+- Observe P-101A for abnormal vibration, acoustic anomalies, or cavitation for 30 seconds.
+- Slowly crack open the discharge isolation valve V-101 to 25% to establish minimum stable flow.
+- Once the discharge pressure stabilizes, fully transition valve V-101 to the 100% open state.
+- Log P-101A pressure metrics immediately.
+
+6. ESCALATION
+If pump P-101A fails to initiate, trips the main electrical breaker, or exhibits abnormal vibration, do not attempt a secondary restart sequence. Immediately isolate P-101A and ensure V-101 is fully closed. If isolation valve V-101 leaks or fails to hold system pressure, block the upstream emergency valve. Report any anomalies regarding P-101A or V-101 directly to the Shift Engineer (E-1042) and initiate a high-priority work order for the reliability maintenance department.

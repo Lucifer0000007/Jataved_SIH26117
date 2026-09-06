@@ -1,0 +1,17 @@
+1. PURPOSE
+To govern the temporary bypass of safety interlocks in the crude unit, including pressure interlock PSH-101, temperature interlock TSH-301, and low-flow interlock FSL-401. Ensures bypasses are authorized, time-limited, and monitored to prevent unprotected operation during testing or maintenance.
+
+2. SCOPE
+Applies to Shift Engineers requesting interlock bypass for instrument testing, maintenance, or troubleshooting. Covers all hardwired and DCS-configured interlocks in the crude charge and product rundown areas. Junior Trainees are prohibited from bypassing any interlock. Does not cover permanent logic changes.
+
+3. SAFETY PRECAUTIONS
+No interlock bypass exceeds 4 hours without written extension from Operations Manager. A dedicated fire watch is required when PSH-101 or TSH-301 is bypassed. Continuous operator presence at local panel is mandatory. Post bypass tag at control room console. Never bypass LSH-201 or ESD-01 under any circumstance.
+
+4. PRE-START CHECKLIST
+Obtain signed Interlock Bypass Permit Form IBP-01. Verify process is in stable state before bypass. Confirm secondary protection is active, such as local pressure gauge when PSH-101 is bypassed. Notify all shift members via radio. Set countdown timer. Record interlock tag, reason, and expected duration in shift log and audit trail.
+
+5. OPERATING STEPS
+Enter bypass in DCS using unique operator credentials. Set automatic restoration alarm for permit expiry time. Monitor process variable manually every 15 minutes. If parameter drifts toward trip point, manually initiate safe shutdown. Upon work completion, restore interlock immediately and verify activation by simulating trip signal. Sign off restoration with timestamp.
+
+6. ESCALATION
+If bypassed interlock cannot be restored before permit expiry, immediately escalate to Operations Manager and file extension request. If process approaches unsafe limit during bypass, manually trip equipment and evacuate if necessary. Any unauthorized bypass attempt must be reported to Safety Department within 30 minutes. Post-incident review mandatory within 24 hours.

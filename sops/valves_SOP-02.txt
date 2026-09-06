@@ -1,0 +1,17 @@
+1. PURPOSE
+To define the safe operating procedure for manual isolation valve V-101 on the crude charge line to P-101A. Ensures positive isolation during maintenance, startup, and emergency shutdown. Valve V-101 is a 10-inch gate valve rated for 600 psi and 350 degrees Fahrenheit operation. All personnel must follow this SOP before manipulating V-101 in any process condition.
+
+2. SCOPE
+Applies to all Shift Engineers and Junior Trainees operating valve V-101 in the crude unit. Covers normal open and close cycles, partial throttling restrictions, lock-out and tag-out integration, and post-maintenance verification. Does not cover automatic control valves downstream of V-101 or relief valve testing.
+
+3. SAFETY PRECAUTIONS
+Verify zero energy state before touching valve V-101. Wear face shield and chemical-resistant gloves. Confirm LSH-201 low-level alarm is active before closing V-101 to prevent pump cavitation. Never force the handwheel if binding occurs. Maintain 15-foot exclusion zone during hydrocarbon service. Ensure communication radio is on channel 3.
+
+4. PRE-START CHECKLIST
+Confirm valve V-101 position indicator reads OPEN. Check stem packing for leaks. Verify lock-out and tag-out removed and signed off. Ensure upstream pressure is below 400 psi. Confirm P-101A suction pressure gauge reads normal. Inspect flange bolts at V-101 inlet and outlet for tightness. Verify tag number matches V-101 nameplate.
+
+5. OPERATING STEPS
+Approach valve V-101 from upwind side. Rotate handwheel counter-clockwise to open, clockwise to close. Do not exceed 25 turns per minute. Record final position in DCS log. If isolating for P-101A maintenance, close V-101 fully, drain downstream, and apply LOTO. Re-open only after maintenance clearance and pressure test pass.
+
+6. ESCALATION
+If valve V-101 exhibits external leakage, seized stem, or abnormal vibration, immediately stop operation and notify Shift Engineer. Do not attempt field repair. If isolation fails during emergency shutdown, activate ESD-01 and evacuate to muster point. Document incident in shift log and file near-miss report within 24 hours.

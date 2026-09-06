@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is the pre-start check for P-101A?",
+    "file": "pumps_SOP-04.txt"
+  },
+  {
+    "q": "How do I operate valve V-101?",
+    "file": "valves_SOP-02.txt"
+  },
+  {
+    "q": "What should I do when LSH-201 alarms?",
+    "file": "safety_SOP-03.txt"
+  },
+  {
+    "q": "What is the interlock bypass policy?",
+    "file": "safety_SOP-05.txt"
+  },
+  {
+    "q": "How do I open valve V-101?",
+    "file": "valves_SOP-02.txt"
+  },
+  {
+    "q": "What safety precautions apply to P-101A startup?",
+    "file": "pumps_SOP-04.txt"
+  },
+  {
+    "q": "What is the escalation procedure for a leak at LSH-201?",
+    "file": "safety_SOP-03.txt"
+  },
+  {
+    "q": "How long can an interlock bypass last?",
+    "file": "safety_SOP-05.txt"
+  },
+  {
+    "q": "What PPE is required for valve V-101 operation?",
+    "file": "valves_SOP-02.txt"
+  },
+  {
+    "q": "What is the operating step for P-101A after motor energize?",
+    "file": "pumps_SOP-04.txt"
+  },
+  {
+    "q": "What does the leak response SOP cover?",
+    "file": "safety_SOP-03.txt"
+  },
+  {
+    "q": "What is the pre-start checklist for valve V-101?",
+    "file": "valves_SOP-02.txt"
+  },
+  {
+    "q": "Can Junior Trainees bypass interlocks?",
+    "file": "safety_SOP-05.txt"
+  },
+  {
+    "q": "What is the first step when LSH-201 detects a leak?",
+    "file": "safety_SOP-03.txt"
+  },
+  {
+    "q": "What oil level is required for P-101A?",
+    "file": "pumps_SOP-04.txt"
+  }
+]

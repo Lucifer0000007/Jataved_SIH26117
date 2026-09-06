@@ -1,0 +1,17 @@
+1. PURPOSE
+To establish emergency response protocol for hydrocarbon leak detection and mitigation in the crude pump area. Covers activation of LSH-201 level safety high alarm, area isolation, personnel accountability, and initial firefighting response before HAZMAT team arrival at the refinery gate.
+
+2. SCOPE
+Applies to all personnel in the crude unit when LSH-201 or portable gas detectors indicate a leak. Covers pump seal leaks, flange spray, valve packing failure, and drip tray overflow. Excludes vessel entry, confined space rescue, and toxic gas release beyond unit battery limits.
+
+3. SAFETY PRECAUTIONS
+Do not approach a confirmed leak without SCBA and flame-resistant coveralls. Maintain upwind position. Avoid ignition sources within 50 feet of LSH-201 sensor location. Use non-sparking tools only. Never block leak path with body or equipment. Activate LSH-201 manual alarm if automatic alarm fails to sound.
+
+4. PRE-START CHECKLIST
+Verify LSH-201 sensor calibration date is current. Check portable gas monitor battery and bump test status. Confirm fire extinguisher type ABC is within 25 feet. Ensure communication radio is on emergency channel. Verify P-101A and V-101 are visible from muster point. Review leak response roster and muster count.
+
+5. OPERATING STEPS
+Upon LSH-201 alarm or visual leak confirmation, sound local alarm and evacuate non-essential personnel. Identify leak source from upwind using binoculars. If leak is at P-101A seal, initiate pump shutdown per SOP-04 and close V-101. Spray water fog to suppress vapors. Notify control room with tag number, leak rate, and wind direction. Establish hot work suspension.
+
+6. ESCALATION
+If leak rate exceeds 1 gallon per minute, or if LSH-201 reads above 85 percent with visible spray, initiate Level-2 emergency response. Evacuate to muster point and await HAZMAT team. Do not attempt containment beyond initial water fog. Report to Shift Engineer immediately. If fire ignites, activate ESD-01 and call refinery fire brigade.

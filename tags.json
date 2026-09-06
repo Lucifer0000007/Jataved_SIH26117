@@ -1,0 +1,17 @@
+{
+  "pump_pid.png": {
+    "tags": [
+      "P-101A",
+      "V-101",
+      "LSH-201"
+    ],
+    "sop": "pumps_SOP-01.txt"
+  },
+  "bad_pid.png": {
+    "tags": [
+      "X-999",
+      "Y-88"
+    ],
+    "sop": null
+  }
+}
