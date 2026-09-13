@@ -178,8 +178,8 @@ about whether a change is safe to activate.
 reaches the network.
 
 ```bash
-git clone https://github.com/Lucifer0000007/Jataved.git
-cd Jataved
+git clone https://github.com/Lucifer0000007/Jataved_SIH26117.git
+cd Jataved_SIH26117
 pip install -r requirements.txt
 
 ollama pull phi3.5            # answer model
