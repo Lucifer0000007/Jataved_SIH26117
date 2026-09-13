@@ -4,3 +4,5 @@ db/
 *.log
 tickets.txt
 .vscode/
+.claude/
+claude.md
