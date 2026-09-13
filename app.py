@@ -28,9 +28,9 @@ def extract_tag_codes(text): return TAG_REGEX.findall((text or "").upper())
 def load_tags_json():
     if not os.path.exists(TAGS_FILE): return {}
     with open(TAGS_FILE, "r", encoding="utf-8") as f: return json.load(f)
-def get_tag_to_sop():
+def get_tag_to_sop(tags_json=None):
     m = {}
-    for e in load_tags_json().values():
+    for e in (load_tags_json() if tags_json is None else tags_json).values():
         if e.get("sop"):
             for t in e.get("tags", []): m[t] = e["sop"]
     return m
@@ -151,6 +151,9 @@ def main():
             if total > 200 * 1024 * 1024:
                 log_event(role, "DIAGRAM REJECTED", f"Batch {total/(1024*1024):.1f} MB > 200 MB")
                 st.error("⛔ Batch too large — collective limit 200 MB."); st.stop()
+            # tags.json is read once per batch here instead of twice per file.
+            all_tags = load_tags_json()
+            tag_to_sop = get_tag_to_sop(all_tags)
             for up in uploaded_files:
                 filename = up.name
                 temp_path = Path(__file__).parent / filename
@@ -165,7 +168,7 @@ def main():
                     tags = []; fallback = True
                     st.info("(vision model unavailable — using saved tag metadata)")
                 st.write("Extracted tags:", ", ".join(sorted(set(tags))) or "none")
-                entry = load_tags_json().get(filename, {})
+                entry = all_tags.get(filename, {})
                 saved = entry.get("tags", [])
                 sop = entry.get("sop")
                 if not tags and saved:
@@ -180,7 +183,6 @@ def main():
                         st.error("⚠ Vision reading doesn't match this drawing's registered metadata — flagged for human review.")
                         log_event(role, "DIAGRAM FLAGGED", f"{filename} | vision={tags} | metadata={saved}")
                 else:
-                    tag_to_sop = get_tag_to_sop()
                     matched = sorted({tag_to_sop[t] for t in tags if t in tag_to_sop})
                     if matched:
                         st.success(f"✅ Verified. Linked SOP: {', '.join(matched)}")
